@@ -1,0 +1,190 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin: 0 1rem;
+}
+
+.header .cta-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: url('/path-to-hero-image.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero .cta-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+/* Features Section Styles */
+.features {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  flex: 1;
+  max-width: 250px;
+  margin: 1rem;
+}
+
+/* Pricing Section Styles */
+.pricing {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.pricing-card {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+/* Reviews Section Styles */
+.reviews {
+  padding: 2rem 1rem;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-item {
+  background: #f8f9fa;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+/* Trust Section Styles */
+.trust {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.security-badges img {
+  width: 100px;
+  margin: 0.5rem;
+}
+
+/* Footer Styles */
+.footer {
+  background: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
